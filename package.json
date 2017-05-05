@@ -1,12 +1,12 @@
 {
-  "name": "nightmare-screenshot",
+  "name": "nightmare-screenshoter",
   "version": "1.0.0",
   "description": "Nightmare plugin for improved screenshot",
   "main": "index.js",
-  "author": "Rize MISUMI <r@ayase-e.li>",
+  "author": "Kos Huang",
   "repository": {
     "type": "git",
-    "url": "git://github.com/MisumiRize/nightmare-screenshot.git"
+    "url": "git@github.com:koshuang/nightmare-screenshoter.git"
   },
   "keywords": [
     "nightmare",
@@ -14,9 +14,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MisumiRize/nightmare-screenshot/issues"
+    "url": "https://github.com/koshuang/nightmare-screenshoter/issues"
   },
-  "homepage": "https://github.com/MisumiRize/nightmare-screenshot",
+  "homepage": "https://github.com/koshuang/nightmare-screenshoter",
   "peerDependencies": {
     "nightmare": ">= 2.0"
   },
