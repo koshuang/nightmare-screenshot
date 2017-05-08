@@ -1,7 +1,7 @@
 nightmare-screenshoter
 ================
 
-[Nightmare](https://github.com/segmentio/nightmare) plugin for improved screenshot.
+Extend [Nightmare](https://github.com/segmentio/nightmare) to improve screenshot with selector.
 
 ### .screenshotSelector(path, selector)
 
