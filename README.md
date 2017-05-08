@@ -9,7 +9,7 @@ Saves a screenshot of the element which matches the specified selector to the sp
 
 ### Example
 
-```
+```javascript
 const Nightmare = require('nightmare');
 const installPlugin = require('nightmare-screenshoter').installPlugin;
 
