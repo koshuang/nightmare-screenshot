@@ -1,6 +1,6 @@
 {
   "name": "nightmare-screenshoter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nightmare plugin for improved screenshot",
   "main": "index.js",
   "author": "Kos Huang",
