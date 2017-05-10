@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 exports.installPlugin = function(Nightmare) {
-	Nightmare.prototype.screenshotSelector = function(path, selector) {
+  Nightmare.prototype.screenshotSelector = function(selector, path) {
     return this.evaluate(function(_selector) {
          var _element = document.querySelector(_selector);
          if (_element) {
@@ -16,7 +16,9 @@ exports.installPlugin = function(Nightmare) {
      }, selector)
      .then((rect) => this.screenshot(rect))
      .then((buffer) => {
-       fs.writeFileSync(path, buffer);
+       if (path) {
+         fs.writeFileSync(path, buffer);
+       }
 
        return buffer;
      })
